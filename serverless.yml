@@ -5,5 +5,5 @@ component: website
 inputs:
   src:
     src: ./src
-    hook: npm run build
+    hook: yarn parcel ../index.html
     dist: ./dist
